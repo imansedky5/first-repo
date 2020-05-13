@@ -1,0 +1,157 @@
+html {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative; /* */
+    
+
+}
+
+main{
+    padding-bottom: 450px; /*larger abit than footer*/
+    margin-top: 70px;
+   
+   
+}
+#searchDiv {
+    margin-top:15px;
+    padding-bottom:2px;
+    position: relative;
+    height:80px
+   
+   
+
+}
+#glass {
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    left: 430px;
+    top:275px;  
+}
+#microphone {
+    height: 20px;
+    width: 15px;
+    position: fixed;
+    right: 430px;
+    top:275px;  
+    
+}
+#googleLogo {
+    display: block;
+    margin:  auto;
+    margin-top: 100px;
+    margin-bottom:2px
+}
+input {
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 550px;
+    height: 40px;
+    border: 0.5px solid #d6d3c9;
+   
+    
+
+}
+#buttonsContainer {
+    width:350px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+#rightButton {
+    margin-left: 40px;
+}
+#rightButton , #leftButton {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f6f7;
+    color: #82817d;
+    width: 130px
+}
+
+#headerUl {
+    display: block;
+    width:270px;
+    margin-left: 1110px;
+    list-style: none;
+     padding-top: 10px;
+ 
+     
+     
+    
+}
+li{
+    display:inline; /* coz li is block elements */
+    padding-left: 15px;
+   
+  
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#signupButton {
+    height: 30px;
+    width:60px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+footer {
+   
+    background-color: #f5f6f7;
+    height: 110px; 
+    position: absolute; /*relativly positioned to body*/
+    bottom: 0;
+    width: 100%;
+   
+
+}
+p {
+ margin-bottom: 0px;
+ padding-left: 25px;
+ 
+}
+#listsDiv {
+
+height:40px;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+padding-top: 20px;
+
+}
+
+.firstList {
+padding-left: 10px;
+margin-top: 1px;
+padding-bottom: 20px;
+
+
+
+}
+.secondList {
+    padding-left: 10px;
+    margin-top: 1px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    }
+p , a {
+   color: #82817d
+}
+
